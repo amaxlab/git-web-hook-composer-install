@@ -1,0 +1,20 @@
+Git web hook composer install
+===
+
+Installer git-web-hook for composer project 
+
+Require
+-------
+
+- amaxlab/git-web-hook >= ~1.0
+- monolog/monolog >= ~1.13
+
+Install
+-------
+``` bash
+$ php composer create-project amaxlab/git-web-hook-composer-install ./git-web-hook --prefer-dist
+```
+
+License
+--------
+This library is under the MIT license. See the complete license in [here](https://github.com/amaxlab/git-web-hook/blob/master/LICENSE)

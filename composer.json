@@ -1,0 +1,17 @@
+{
+    "name": "amaxlab/git-web-hook-composer-install",
+    "description": "Installer git-web-hook for composer project",
+    "license": "MIT",
+    "require": {
+        "amaxlab/git-web-hook": "~1.0",
+        "monolog/monolog": "~1.13"
+    },
+    "minimum-stability": "beta",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Egor Zyuskin",
+            "email": "egor@zyuskin.ru"
+        }
+    ]
+}
