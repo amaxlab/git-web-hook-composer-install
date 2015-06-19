@@ -6,7 +6,7 @@ Installer git-web-hook for composer project
 Require
 -------
 
-- amaxlab/git-web-hook >= ~1.0
+- amaxlab/git-web-hook >= ~0.1.x-dev
 - monolog/monolog >= ~1.13
 
 Install
