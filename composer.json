@@ -1,26 +1,27 @@
 {
     "name": "amaxlab/git-web-hook-composer-install",
     "description": "Installer git-web-hook for composer project",
+    "type": "project",
     "license": "MIT",
+    "authors": [
+        {
+          "name": "Egor Zyuskin",
+          "email": "egor@zyuskin.ru"
+        },
+        {
+          "name": "Igor Bodnar",
+          "email": "bodnar_i@mail.ru"
+        }
+    ],
     "require": {
         "amaxlab/git-web-hook": "0.1.x-dev",
         "monolog/monolog": "~1.13"
     },
-    "minimum-stability": "beta",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "extra": {
         "branch-alias": {
             "dev-master": "0.1.x-dev"
         }
-    },
-    "authors": [
-        {
-            "name": "Egor Zyuskin",
-            "email": "egor@zyuskin.ru"
-        },
-        {
-            "name": "Igor Bodnar",
-            "email": "bodnar_i@mail.ru"
-        }
-    ]
+    }
 }

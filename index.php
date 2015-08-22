@@ -25,11 +25,12 @@ $logger->pushHandler(new StreamHandler(__DIR__ . '/hook.log', Logger::WARNING));
 
 $hook = new Hook(__DIR__, $options, $logger);
 
-$hook->addRepository('git@github.com:amaxlab/git-web-hook.git')
-     ->addBranch('master')
-     ->addCommand(array('git status', 'git reset --hard HEAD', 'git pull origin master'))
-     ->getParent()
-     ->addBranch('production')
-     ->addCommand('git pull origin production');
+$hook
+    ->addRepository('git@github.com:amaxlab/git-web-hook.git', '/var/www/my_project_folder/web')
+    ->addBranch('master', array('git status', 'git reset --hard HEAD', 'git pull origin master'), '/var/www/my_project_folder/demo_subdomain') // commands executed on push to specified branch in /var/www/html/my_site/ folder
+    ->addBranch('production', 'git pull origin production');
+
+// or load from yml files
+$hook->loadRepos(__DIR__.'/repos.d/');
 
 $hook->execute();

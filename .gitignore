@@ -1,2 +1,4 @@
 vendor/
+repos.d/*
 *.log
+!.gitkeep

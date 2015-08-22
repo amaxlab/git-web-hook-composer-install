@@ -12,7 +12,7 @@ Require
 Install
 -------
 ``` bash
-$ php composer create-project amaxlab/git-web-hook-composer-install ./git-web-hook --prefer-dist
+$ composer create-project amaxlab/git-web-hook-composer-install ./git-web-hook --prefer-dist
 ```
 
 License
