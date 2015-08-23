@@ -1,0 +1,18 @@
+repositories:
+    #one or several repositories can be described in a file
+    git@github.com:amaxlab/git-web-hook-test.git:
+        path: null
+        options: {}
+        commands:
+          - git status
+        branch:
+            master:
+                path: null
+                options: {}
+                commands:
+                  - git reset --hard HEAD
+                  - git pull origin master
+            production:
+                commands:
+                  - git reset --hard HEAD
+                  - git pull origin production

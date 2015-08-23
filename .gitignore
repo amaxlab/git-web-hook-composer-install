@@ -1,4 +1,7 @@
 vendor/
-repos.d/*
-*.log
+config/repos.d/*
+config/config.yml
+!config/repos.d/repository_config.yml.dist
 !.gitkeep
+log/*
+*.log
