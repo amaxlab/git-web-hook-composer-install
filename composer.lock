@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/amaxlab/git-web-hook.git",
-                "reference": "0f2e621eb9ab39c69cdb95bc3503e3e219c662db"
+                "reference": "efff7615c4d8c03e0c3829041d84a18d9c2d28c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/amaxlab/git-web-hook/zipball/0f2e621eb9ab39c69cdb95bc3503e3e219c662db",
-                "reference": "0f2e621eb9ab39c69cdb95bc3503e3e219c662db",
+                "url": "https://api.github.com/repos/amaxlab/git-web-hook/zipball/efff7615c4d8c03e0c3829041d84a18d9c2d28c7",
+                "reference": "efff7615c4d8c03e0c3829041d84a18d9c2d28c7",
                 "shasum": ""
             },
             "require": {
@@ -66,7 +66,7 @@
                 "web",
                 "web-hook"
             ],
-            "time": "2015-09-02 03:39:20"
+            "time": "2015-09-04 16:48:05"
         },
         {
             "name": "monolog/monolog",

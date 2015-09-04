@@ -1,13 +1,13 @@
 options:
-    sendEmails: false,                        # Enable or disable sending emails
-    sendEmailAuthor: false,                   # Enable or disable sending email commit author
-    sendEmailFrom: 'git-web-hook@youdomain',  # Email address from which messages are sent
-    mailRecipients: [],                       # Array of subscribers
-    allowedAuthors: [],                       # Array of commit authors allowed to execute commands or '*'
-    allowedHosts: [],                         # Array of hook hosts allowed to execute commands or '*'
-    securityCode: '',                         # Security code on check $_GET request
-    securityCodeFieldName: 'code',            # $_GET field name of security code
-    repositoryFieldName: 'url',               # Repository filed name on the JSON query
+    sendEmails: false                        # Enable or disable sending emails
+    sendEmailAuthor: false                   # Enable or disable sending email commit author
+    sendEmailFrom: 'git-web-hook@youdomain'  # Email address from which messages are sent
+    mailRecipients: []                       # Array of subscribers
+    allowedAuthors: []                       # Array of commit authors allowed to execute commands or '*'
+    allowedHosts: []                         # Array of hook hosts allowed to execute commands or '*'
+    securityCode: ''                         # Security code on check $_GET request
+    securityCodeFieldName: 'code'            # $_GET field name of security code
+    repositoryFieldName: 'url'               # Repository filed name on the JSON query
 #trustedProxies: [192.168.0.100]              # ip of proxies, leave empty if you doesn't know what is it
 #commands: []                                 # commands to execute on each hook call
 path: '/var/www/projects'                     # main path where commands will be executed, can be overwrite in repository or branch
